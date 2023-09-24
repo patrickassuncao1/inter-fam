@@ -6,9 +6,13 @@ import Layout from "../components/Layout";
 import PageOne from "../pages/PageOne";
 import PageTwo from "../pages/PageTwo";
 import PageThree from "../pages/PageThree";
+import PageFour from "../pages/PageFour";
+import PageFive from "../pages/PageFive";
+
+
 
 const AppRoutes: React.FC = () => {
-  const { home, pageOne, pageTwo, pageThree } = routeLinks;
+  const { home, pageOne, pageTwo, pageThree, pageFour, pageFive} = routeLinks;
 
   return (
     <BrowserRouter>
@@ -18,7 +22,10 @@ const AppRoutes: React.FC = () => {
           <Route path={pageOne.path} element={<PageOne />}></Route>
           <Route path={pageTwo.path} element={<PageTwo />}></Route>
           <Route path={pageThree.path} element={<PageThree />}></Route>
-        </Route>
+          <Route path={pageFour.path} element={<PageFour />}
+          ></Route>
+<Route path={pageFive.path} element={ <PageFive/>} />
+ </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

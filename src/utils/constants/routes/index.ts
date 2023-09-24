@@ -1,5 +1,5 @@
 
-export type routeLinksType = 'home' | 'pageOne' | 'pageTwo' | 'pageThree';
+export type routeLinksType = 'home' | 'pageOne' | 'pageTwo' | 'pageThree' | 'pageFour' | 'pageFive';
 
 
 export const routeLinks = {
@@ -18,5 +18,13 @@ export const routeLinks = {
     pageThree: {
         path: "/page-3",
         number: 4
-    }
+    },
+    pageFour: {
+        path: "/page-4",
+        number: 5
+    },
+    pageFive: {
+        path: "/page-5",
+        number: 6
+      }  
 }

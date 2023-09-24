@@ -12,8 +12,8 @@ const PageOne: React.FC = () => {
     <PageText
       title="Introdução"
       description={Topics}
-      imgUrl="/fakenews.jpg"
-      position="left"
+      imgUrl="/image4.jpeg"
+      position="right"
     />
   );
 };
