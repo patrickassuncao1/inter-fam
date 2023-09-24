@@ -1,0 +1,1 @@
+export const listTeam = ["Patrick Assunção", "Sandro", "Jean", "Nome"];
