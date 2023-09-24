@@ -3,7 +3,7 @@ import PageText from "../../components/PageText";
 
 const Topics = [
   "Necessidade de um esforço conjunto para prevenir a propagação de fake news.",
-  "Sinais de perfis automatizados: alta taxa de postagem, nomes semelhantes, data de criação igual.",
+  "Sinais de perfis automatizados.",
   "Identificação de bots de fake news seguindo uns aos outros.",
 ];
 
