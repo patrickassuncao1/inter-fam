@@ -1,1 +1,6 @@
-export const listTeam = ["Patrick Assunção", "Sandro", "Jean", "Nome"];
+export const listTeam = [
+  "Patrick Assunção",
+  "Sandro Costa",
+  "Jean Christopher",
+  "Brunno Bernardes",
+];

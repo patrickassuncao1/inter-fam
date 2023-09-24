@@ -60,7 +60,9 @@ const Layout: React.FC = () => {
 
   return (
     <main className="w-screen h-screen bg-black p-8 overflow-hidden">
+      <div className="w-full max-w-[2000px] h-full block mx-auto">
       <Outlet />
+      </div>
     </main>
   );
 };
