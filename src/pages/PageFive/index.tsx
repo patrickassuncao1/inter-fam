@@ -7,17 +7,15 @@ const Topics = [
   "O impacto positivo da checagem e denúncia na redução da propagação de notícias falsas.",
 ];
 
-function PageFive() {
-    return (
-        <PageText
-            title="Importância da Checagem e Conscientização"
-            description={Topics}
-            imgUrl="/image3.jpg"
-            position="right" />
-    );
-}
+const PageFive: React.FC = () => {
+  return (
+    <PageText
+      title="Importância da Checagem e Conscientização"
+      description={Topics}
+      imgUrl="/image3.jpg"
+      position="right"
+    />
+  );
+};
 
 export default PageFive;
-
-
-

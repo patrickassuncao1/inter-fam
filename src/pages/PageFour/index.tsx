@@ -7,14 +7,15 @@ const Topics = [
   "Casos emblemáticos de fake news, como o do Papa Francisco.",
 ];
 
-function PageFour() {
-    return (
-        <PageText
-            title="Denúncia e Consequências"
-            description={Topics}
-            imgUrl="/image2.jpg"
-            position="right" />
-    );
-}
+const PageFour: React.FC = () => {
+  return (
+    <PageText
+      title="Denúncia e Consequências"
+      description={Topics}
+      imgUrl="/image2.jpg"
+      position="right"
+    />
+  );
+};
 
 export default PageFour;
