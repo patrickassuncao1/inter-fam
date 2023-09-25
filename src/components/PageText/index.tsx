@@ -25,7 +25,7 @@ const PageText = ({ imgUrl, position, title, description }: PageTextType) => {
       >
         <div className="w-3/6">
           <img
-            src={imgUrl}
+            src={"/img" + imgUrl}
             alt="image-slide"
             className="w-full h-full object-contain"
           />
